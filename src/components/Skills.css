@@ -1,0 +1,8 @@
+.skill-card {
+  transition: transform 0.25s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.25s;
+}
+.skill-card:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 8px 32px 0 rgba(99, 102, 241, 0.14), 0 4px 24px rgba(80, 80, 120, 0.10);
+  z-index: 2;
+} 
